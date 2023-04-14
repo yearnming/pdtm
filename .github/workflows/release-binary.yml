@@ -1,8 +1,6 @@
 name: 🎉 Release Binary
 
-on:
-  release:
-    types: [created] # 表示在创建新的 Release 时触发
+on: [push]
 
 jobs:
   release:
